@@ -1,0 +1,51 @@
+.headerWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background-image: url("./header.png");
+    background-repeat: no-repeat;
+    background-position: bottom 5% right 0px;
+    height: 100vh;
+}
+
+.topHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.menuWrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.loginMenuWrapper {
+    margin-left: 20px;
+}
+
+.headerContent {
+    max-width: 667px;
+    margin-top: 156px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    color: #202020;
+}
+
+.subTitle {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    color: #2A2A2A;
+    margin-top: 34px;
+}
+
+.linkWrapper {
+    margin-top: 50px;
+}

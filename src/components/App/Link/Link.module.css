@@ -1,0 +1,12 @@
+.link {
+    box-shadow: 0px 10px 40px rgba(246, 0, 0, 0.273805);
+    border-radius: 100px;
+    padding: 20px 64px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.alink {
+    text-decoration: none;
+}
+

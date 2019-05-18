@@ -1,0 +1,22 @@
+.loginMenu {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+    color: #0043C7;
+}
+
+.loginMenu a {
+    text-decoration: none;
+    color: #0043C7;
+}
+
+.loginMenu li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.loginMenu li:last-child {
+    margin-right: 0px;
+}

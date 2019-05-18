@@ -1,0 +1,23 @@
+.mainMenu {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #0043C7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainMenu a {
+    text-decoration: none;
+    color: #0043C7;
+}
+
+.mainMenu li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.mainMenu li:last-child {
+    margin-right: 0px;
+}
