@@ -1,6 +1,9 @@
 .headerWrapper {
     display: flex;
     justify-content: center;
+    background:
+            linear-gradient(to bottom, transparent 0%,#ffffff 100%),
+            linear-gradient(135deg, #e3eefb 0%,#d9e8fa 39%,#bdd7f6 39%,#cfe2f8 58%,#bdd3ee 58%,#c7daf1 80%,#c7dbf0 80%,#c7dbf0 100%);
 }
 
 .header {
@@ -44,6 +47,7 @@
     line-height: 30px;
     color: #2A2A2A;
     margin-top: 34px;
+    max-width: 476px;
 }
 
 .linkWrapper {

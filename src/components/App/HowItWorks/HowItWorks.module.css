@@ -1,0 +1,38 @@
+.howItWorksWrapper {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background:
+            /*url("./zig.svg") no-repeat bottom 30% right 10%,*/
+            linear-gradient(5deg, transparent 0%,transparent 15%,#0063f7 15%,#0063f7 86%,transparent 86%,transparent 100%),
+            linear-gradient(-5deg, transparent 0%,transparent 50%,#02D8F4 50%,#02D8F4 86%,transparent 86%,transparent 100%);
+}
+
+.bgWrapper {
+    /*background: url("./zig.svg") no-repeat bottom 30% right 0%;*/
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-top: 140px;
+}
+
+.howItWorks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.howItWorkWrapper {
+    display: flex;
+    margin-right: 22px;
+}
+
+.howItWorkWrapper:last-child {
+    margin-right: 0px;
+}

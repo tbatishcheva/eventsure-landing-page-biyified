@@ -1,0 +1,77 @@
+.registerNowWrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #009EF6;
+    height: 100vh;
+    background:
+    url("./left.svg") no-repeat top 0px left 0px,
+    url("./right.svg") no-repeat bottom -100px right 0px,
+    linear-gradient(-5deg,#009EF6 0%,#009EF6 76%,transparent 76%,transparent 100%);
+
+}
+
+.registerNow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-top: 250px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.256312);
+    border-radius: 50px;
+    border: none;
+    padding: 18px 32px;
+}
+
+input::placeholder {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+input[type=text] {
+    margin-top: 44px;
+    width: 500px;
+}
+
+input[type=email] {
+    margin-top: 32px;
+    width: 500px;
+}
+
+input[type=submit] {
+    margin-top: 26px;
+    background: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 40px rgba(255, 255, 255, 0.729704);
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #009EF6;
+    width: 300px;
+}

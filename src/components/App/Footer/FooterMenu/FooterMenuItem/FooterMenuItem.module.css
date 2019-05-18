@@ -1,0 +1,18 @@
+.footerMenuItem {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    color: #1E77E1;
+    padding-top: 30px;
+}
+
+.footerMenuItem a {
+    text-decoration: none;
+    color: #1E77E1;
+}
+
+.footerMenuItem:first-child {
+    padding: 0;
+}

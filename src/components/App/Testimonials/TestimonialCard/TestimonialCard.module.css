@@ -1,0 +1,39 @@
+.testimonialCard {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 40px rgba(30, 119, 225, 0.183764);
+    border-radius: 10px;
+    position: relative;
+}
+
+.image {
+    position: absolute;
+    top: 36px;
+    left: -52px;
+    border-radius: 50%;
+}
+
+.commentWrapper {
+    padding: 40px 34px 40px 76px;
+}
+
+.comment {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #959595;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #1189F3;
+    margin-top: 30px;
+}
+
+.position {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #AEAEAE;
+}

@@ -1,0 +1,25 @@
+.footerWrapper {
+    display: flex;
+    justify-content: center;
+    background:
+    url("./footer.svg") no-repeat bottom 30px left 0px,
+    linear-gradient(-5deg, #1E77E1 0%,#1E77E1 30%,transparent 30%,transparent 100%);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    padding: 0 100px;
+}
+
+.address {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    color: #A9A9A9;
+}

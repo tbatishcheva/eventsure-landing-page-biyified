@@ -1,0 +1,35 @@
+.howItWorksCard {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.209352);
+    border-radius: 10px;
+    padding: 50px 42px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #009EF6;
+    margin-top: 38px;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #959595;
+    margin-top: 26px;
+}
+
+.imageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    display: block;
+    height: 120px;
+}

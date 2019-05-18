@@ -1,0 +1,23 @@
+.testimonialsWrapper {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: url("./testimonials.svg") no-repeat top -60px right 0px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #1E77E1;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.testimonialsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 500px);
+    grid-gap: 80px;
+    margin-top: 66px;
+}
