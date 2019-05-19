@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import styles from './HowItWorks.module.css';
 import HowItWorksCard from './HowItWorksCard/HowItWorksCard';
 import event from './event.svg';
@@ -8,13 +7,11 @@ import tickets from './tickets.svg';
 import Container from '../Container/Container';
 
 class HowItWorks extends Component {
-  static propTypes = {};
 
   render() {
     return (
       <div className={styles.howItWorksWrapper}>
         <Container>
-          <div className={styles.bgWrapper}>
           <div className={styles.title}>How It Works</div>
           <div className={styles.howItWorks}>
             <div className={styles.howItWorkWrapper}>
@@ -38,7 +35,6 @@ class HowItWorks extends Component {
                 subtitle="Aaccusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi"
               />
             </div>
-          </div>
           </div>
         </Container>
       </div>

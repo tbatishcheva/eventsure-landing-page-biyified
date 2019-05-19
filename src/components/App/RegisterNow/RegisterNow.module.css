@@ -1,13 +1,13 @@
 .registerNowWrapper {
     display: flex;
     justify-content: center;
-    background-color: #009EF6;
     height: 100vh;
     background:
     url("./left.svg") no-repeat top 0px left 0px,
-    url("./right.svg") no-repeat bottom -100px right 0px,
     linear-gradient(-5deg,#009EF6 0%,#009EF6 76%,transparent 76%,transparent 100%);
-
+    position: relative;
+    z-index: -1;
+    margin-bottom: -200px;
 }
 
 .registerNow {
@@ -22,6 +22,10 @@
     line-height: 56px;
     color: #FFFFFF;
     margin-top: 250px;
+}
+
+.formWrapper {
+    margin-top: 44px;
 }
 
 .form {
@@ -53,7 +57,7 @@ input::placeholder {
 }
 
 input[type=text] {
-    margin-top: 44px;
+    /*margin-top: 44px;*/
     width: 500px;
 }
 
@@ -74,4 +78,6 @@ input[type=submit] {
     line-height: 35px;
     color: #009EF6;
     width: 300px;
+    display: flex;
+    justify-content: center;
 }

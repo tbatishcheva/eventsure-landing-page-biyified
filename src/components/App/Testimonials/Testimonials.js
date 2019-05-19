@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import styles from './Testimonials.module.css';
 import Container from '../Container/Container';
 import TestimonialCard from './TestimonialCard/TestimonialCard';
@@ -9,7 +8,6 @@ import josephineJohnston from './josephine-johnston.png';
 import effieOwen from './effie-owen.png';
 
 class Testimonials extends Component {
-  static propTypes = {};
 
   render() {
     return (

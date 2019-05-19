@@ -1,9 +1,11 @@
 .headerWrapper {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
     background:
             linear-gradient(to bottom, transparent 0%,#ffffff 100%),
             linear-gradient(135deg, #e3eefb 0%,#d9e8fa 39%,#bdd7f6 39%,#cfe2f8 58%,#bdd3ee 58%,#c7daf1 80%,#c7dbf0 80%,#c7dbf0 100%);
+    transition: all .5s;
 }
 
 .header {
@@ -11,6 +13,7 @@
     background-repeat: no-repeat;
     background-position: bottom 5% right 0px;
     height: 100vh;
+    background-size: 70%;
 }
 
 .topHeader {
@@ -26,7 +29,7 @@
 }
 
 .loginMenuWrapper {
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .headerContent {
@@ -52,4 +55,16 @@
 
 .linkWrapper {
     margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .headerWrapper {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 970px) {
+    .headerWrapper {
+        margin-bottom: 100px;
+    }
 }

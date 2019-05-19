@@ -20,7 +20,9 @@ class TestimonialCard extends Component {
   render() {
     return (
       <div className={styles.testimonialCard}>
-        <img className={styles.image} src={this.props.img} alt={this.props.img} />
+        <div className={styles.imageWrapper}>
+          <img className={styles.image} src={this.props.img} alt={this.props.img} />
+        </div>
         <div className={styles.commentWrapper}>
           <div className={styles.comment}>{this.props.comment}</div>
           <div className={styles.name}>{this.props.name}</div>

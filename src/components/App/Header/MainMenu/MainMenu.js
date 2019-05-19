@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import styles from './MainMenu.module.css';
 
 class MainMenu extends Component {
-  static propTypes = {};
 
   render() {
     return (

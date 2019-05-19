@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import styles from './Footer.module.css';
 import Container from '../Container/Container';
 import FooterMenu from './FooterMenu/FooterMenu';
@@ -7,7 +6,6 @@ import FooterMenuItem from './FooterMenu/FooterMenuItem/FooterMenuItem';
 import logo from './logo.svg';
 
 class Footer extends Component {
-  static propTypes = {};
 
   render() {
     return (

@@ -5,10 +5,17 @@
     position: relative;
 }
 
-.image {
+.imageWrapper {
     position: absolute;
     top: 36px;
     left: -52px;
+    border-radius: 50%;
+}
+
+.image {
+    display: block;
+    object-fit: cover;
+    width: 100px;
     border-radius: 50%;
 }
 

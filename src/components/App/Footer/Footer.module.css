@@ -2,15 +2,18 @@
     display: flex;
     justify-content: center;
     background:
-    url("./footer.svg") no-repeat bottom 30px left 0px,
-    linear-gradient(-5deg, #1E77E1 0%,#1E77E1 30%,transparent 30%,transparent 100%);
+    url("./right.svg") no-repeat top 0px right 0px,
+    linear-gradient(-5deg, #1E77E1 0%,#1E77E1 20%,transparent 20%,transparent 100%),
+    url("./footer.svg") no-repeat bottom 40px left 0px;
+    position: relative;
+    z-index: 1;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 300px;
     margin-bottom: 300px;
     padding: 0 100px;
 }
